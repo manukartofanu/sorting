@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{084570AB-4B5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorting", "src\Sorting\Sorting.csproj", "{E3340A1D-3524-4DC1-A384-6D7BEEE01DAD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingTest", "test\SortingTest\SortingTest.csproj", "{F8CDCE55-C3C2-47B0-A6AD-5B6FD0C9D023}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,12 +21,17 @@ Global
 		{E3340A1D-3524-4DC1-A384-6D7BEEE01DAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3340A1D-3524-4DC1-A384-6D7BEEE01DAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3340A1D-3524-4DC1-A384-6D7BEEE01DAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8CDCE55-C3C2-47B0-A6AD-5B6FD0C9D023}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8CDCE55-C3C2-47B0-A6AD-5B6FD0C9D023}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8CDCE55-C3C2-47B0-A6AD-5B6FD0C9D023}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8CDCE55-C3C2-47B0-A6AD-5B6FD0C9D023}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E3340A1D-3524-4DC1-A384-6D7BEEE01DAD} = {084570AB-4B57-46EE-A0F0-077E43991335}
+		{F8CDCE55-C3C2-47B0-A6AD-5B6FD0C9D023} = {7A67D9CE-3DF2-42B0-BEC3-B0F8392128DC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6F7732A4-1E05-4492-8ACD-7565631C9E63}
