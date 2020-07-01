@@ -16,6 +16,6 @@ jobs:
     - name: Install dependencies
       run: dotnet restore csharp
     - name: Build
-      run: dotnet build csharp\Main.sln --configuration Release --no-restore
+      run: dotnet build csharp/Main.sln -c Release --no-restore
     - name: Test
-      run: dotnet test csharp\test\SortingTest\SortingTest.csproj --no-restore --verbosity normal
+      run: dotnet test csharp/test/SortingTest/SortingTest.csproj --no-restore --verbosity normal
