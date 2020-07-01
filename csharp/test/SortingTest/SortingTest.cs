@@ -13,7 +13,7 @@ namespace SortingTest
 		{
 			int[] initial = null;
 			Exception ex = Assert.Throws<ArgumentNullException>(() => AssertAfterSort(sorting, initial, null));
-			Assert.Equal("Value cannot be null.\r\nParameter name: array", ex.Message);
+			Assert.Equal($"Value cannot be null.{Environment.NewLine}Parameter name: array", ex.Message);
 		}
 
 		[Theory]
