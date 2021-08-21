@@ -10,6 +10,7 @@ namespace SortingTest
 		[InlineData(typeof(BubbleSort))]
 		[InlineData(typeof(InsertionSort))]
 		[InlineData(typeof(CocktailShakerSort))]
+		[InlineData(typeof(ExchangeSort))]
 		public void NullArray(Type sorting)
 		{
 			int[] initial = null;
@@ -21,6 +22,7 @@ namespace SortingTest
 		[InlineData(typeof(BubbleSort))]
 		[InlineData(typeof(InsertionSort))]
 		[InlineData(typeof(CocktailShakerSort))]
+		[InlineData(typeof(ExchangeSort))]
 		public void EmptyArray(Type sorting)
 		{
 			int[] initial = new int[0];
@@ -32,6 +34,7 @@ namespace SortingTest
 		[InlineData(typeof(BubbleSort))]
 		[InlineData(typeof(InsertionSort))]
 		[InlineData(typeof(CocktailShakerSort))]
+		[InlineData(typeof(ExchangeSort))]
 		public void ReverseArray(Type sorting)
 		{
 			int[] initial = new int[] { 9, 8, 7, 6, 5, 4, 3, 2, 1, 0 };
@@ -43,6 +46,7 @@ namespace SortingTest
 		[InlineData(typeof(BubbleSort))]
 		[InlineData(typeof(InsertionSort))]
 		[InlineData(typeof(CocktailShakerSort))]
+		[InlineData(typeof(ExchangeSort))]
 		public void EqualArray(Type sorting)
 		{
 			int[] initial = new int[] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
@@ -54,6 +58,7 @@ namespace SortingTest
 		[InlineData(typeof(BubbleSort))]
 		[InlineData(typeof(InsertionSort))]
 		[InlineData(typeof(CocktailShakerSort))]
+		[InlineData(typeof(ExchangeSort))]
 		public void RandomArray(Type sorting)
 		{
 			int[] initial = new int[] { 99, 5, 7, 3, 5 };
